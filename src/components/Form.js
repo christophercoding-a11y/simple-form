@@ -83,7 +83,7 @@ const Form =(props)=> {
                                     date of birth
                             </label>
                             <input
-                                type="dateofbirth"
+                                type="date"
                                 id= { id + '-dateofbirth'}
                                 name='dateofbirth'
                                 value={props.dateofbirth}
@@ -115,7 +115,7 @@ const Form =(props)=> {
                                     phone number
                             </label>
                             <input
-                                type="tel"
+                                type="number"
                                 id= { id + '-phone'}
                                 name='phone'
                                 value={props.phone}
